@@ -1,7 +1,7 @@
 // static/static-content/static-config.js
 
 window.MAIN_CONTENT = {
-  //"VERSION" : 1.0,
+  "VERSION" : 1,
   "UNDER_CONSTRUCTION": false,
   "ENABLE_EDITOR": false,
   "ROADMAP_HIDE_RELATED_KEYWORDS": true,
