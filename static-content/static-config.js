@@ -10,7 +10,7 @@ window.MAIN_CONTENT = {
   "DEFAULT_LANGUAGE": "vn",
   "CONTENT": {
     "meta": {
-      "version": 3,
+      "version": 1,
       "source": "cms-draft"
     },
     "CONTENT": {
@@ -20,10 +20,16 @@ window.MAIN_CONTENT = {
       },
       "CONTENT": {
         "meta": {
-          "version": 1,
+          "version": 3,
           "source": "cms-draft"
         },
-        "CONTENT": {}
+        "CONTENT": {
+          "meta": {
+            "version": 1,
+            "source": "cms-draft"
+          },
+          "CONTENT": {}
+        }
       }
     }
   }
