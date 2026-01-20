@@ -20,8 +20,8 @@ window.MAIN_CONTENT = {
     "DEFAULT_LANGUAGE": "vn",
     "CONTENT": {},
     "meta": {
-      "version": 0,
-      "source": "unknown"
+      "version": 1,
+      "source": "local-storage"
     }
   }
 };
