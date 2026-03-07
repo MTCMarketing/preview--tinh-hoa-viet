@@ -10,9 +10,9 @@ window.MAIN_CONTENT = {
   "DEFAULT_LANGUAGE": "vn",
   "CONTENT": {
     "meta": {
-      "version": 3,
+      "version": 4,
       "source": "cms-draft",
-      "timestamp": 1770669334822
+      "timestamp": 1772896894209
     },
     "CONTENT": {
       "contentEN": {
@@ -54,6 +54,10 @@ window.MAIN_CONTENT = {
                   {
                     "text": "Contact",
                     "path": "/contact"
+                  },
+                  {
+                    "text": "Blog",
+                    "path": "/#blog"
                   }
                 ],
                 "mobileNavOverride": {
@@ -85,82 +89,33 @@ window.MAIN_CONTENT = {
                 ],
                 "contact": [
                   {
-                    "icon": {
-                      "type": "FiMapPin",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiMapPin",
                     "label": "123 Hanoi Street, Vietnam"
                   },
                   {
-                    "icon": {
-                      "type": "FiMail",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiMail",
                     "label": "info@tinhhoaviet.org"
                   },
                   {
-                    "icon": {
-                      "type": "FiPhone",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiPhone",
                     "label": "+84 123 456 789"
                   }
                 ],
                 "socialLinks": [
                   {
-                    "icon": {
-                      "type": "FiFacebook",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiFacebook",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiLinkedin",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiLinkedin",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiYoutube",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiYoutube",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiTwitter",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiTwitter",
                     "href": "#"
                   }
                 ],
@@ -348,231 +303,47 @@ window.MAIN_CONTENT = {
               },
               "featuredVideoContent": {
                 "heading": "FEATURED VIDEO",
-                "subheading": "Discover the Spirit and Quintessence of Vietnam"
-              },
-              "eventContent": {
-                "hero": {
-                  "registerButton": "REGISTER NOW"
-                },
-                "checkout": {
-                  "title": "Complete Registration",
-                  "subtitle": "Event Registration",
-                  "form": {
-                    "nameLabel": "Full Name",
-                    "namePlaceholder": "John Doe",
-                    "emailLabel": "Email Address",
-                    "emailPlaceholder": "you@example.com",
-                    "phoneLabel": "Phone Number",
-                    "phonePlaceholder": "+1 (555) 123-4567",
-                    "companyLabel": "Company/Organization",
-                    "companyPlaceholder": "Your Company",
-                    "addressLabel": "Address",
-                    "addressPlaceholder": "123 Main Street",
-                    "submitButton": "Complete Registration"
-                  },
-                  "summary": {
-                    "title": "Order Summary",
-                    "selectPlan": "Select Plan",
-                    "total": "Total"
-                  }
-                },
-                "success": {
-                  "title": "Registration Successful!",
-                  "message": "Thank you for registering for",
-                  "details": {
-                    "event": "Event:",
-                    "date": "Date:",
-                    "location": "Location:"
-                  },
-                  "info": {
-                    "email": "📧 You will receive an email confirmation shortly with your ticket details.",
-                    "save": "📱 Please save this confirmation for event entry."
-                  },
-                  "actions": {
-                    "backToEvent": "← Back to Event Page",
-                    "viewAdmission": "View Admission Portal"
-                  }
-                },
-                "fail": {
-                  "title": "Registration Failed",
-                  "message": "We couldn't process your registration for",
-                  "reasons": {
-                    "title": "This could be due to:",
-                    "list": [
-                      "Payment processing error",
-                      "Network connection issues",
-                      "Event capacity reached",
-                      "Invalid payment information"
-                    ]
-                  },
-                  "actions": {
-                    "retry": "Try Again",
-                    "backToEvent": "← Back to Event"
-                  },
-                  "support": {
-                    "title": "Need help? Contact our support team:",
-                    "email": "📧 support@tinhhoaviet.com",
-                    "phone": "📞 +1 (555) 123-4567"
-                  }
-                },
-                "admission": {
-                  "title": "Event Admission",
-                  "states": {
-                    "scanner": {
-                      "title": "Waiting for QR Code…",
-                      "description": "Point the scanner at a ticket QR."
-                    },
-                    "fail": {
-                      "title": "QR Code not found",
-                      "description": "This code does not match any ticket."
-                    },
-                    "used": {
-                      "title": "Ticket already used",
-                      "description": "This ticket has already been admitted."
-                    },
-                    "valid": {
-                      "title": "Valid Ticket",
-                      "description": "Ticket is valid and unused. Admit now.",
-                      "button": "Admit User"
-                    },
-                    "success": {
-                      "title": "Admission Successful",
-                      "description": "Welcome to the event!"
-                    }
-                  },
-                  "debug": {
-                    "scanner": "Scanner",
-                    "failed": "Failed",
-                    "used": "Used",
-                    "valid": "Valid",
-                    "success": "Success"
-                  }
-                },
-                "about": {
-                  "title": "What's going on there come and learn",
-                  "description": "Join us for an unforgettable experience at the PHP Conference Istanbul 2024. This premier event brings together the brightest minds in web development, offering unparalleled opportunities for learning, networking, and innovation. Discover cutting-edge technologies, engage with industry experts, and be part of the vibrant PHP community.",
-                  "registerButton": "REGISTER",
-                  "videoButton": "WATCH VIDEO"
-                },
-                "speakers": {
-                  "heading": "ADVISORY BOARD",
-                  "subheading": "",
-                  "list": [
-                    {
-                      "name": "Dr. Nguyen Hoai Vu",
-                      "title": "Director – BaoChi.Online – ANKT.VN",
-                      "description": "",
-                      "image": "https://lh3.googleusercontent.com/d/11qGtehsLRt39wyRkuOnk_TPCHwm0LIrb"
-                    },
-                    {
-                      "name": "Nguyen Minh Khoi",
-                      "title": "Deputy Director – Vietnam Digital Event Center",
-                      "description": "",
-                      "image": "https://lh3.googleusercontent.com/d/1mQd2Jh7qA_MCUTm_p8HmBylrHYPEvAGH"
-                    },
-                    {
-                      "name": "Le Dai Loc",
-                      "title": "Deputy Director – Vietnam Digital Event Center",
-                      "description": "",
-                      "image": "https://lh3.googleusercontent.com/d/1mQd2Jh7qA_MCUTm_p8HmBylrHYPEvAGH"
-                    }
-                  ]
-                },
-                "pricing": {
-                  "heading": "EVENT PRICE LIST",
-                  "subheading": "Perfect Price for Event",
-                  "registerButton": "REGISTER",
-                  "plans": {
-                    "personal": "Personal",
-                    "business": "Business",
-                    "corporate": "Corporate"
-                  },
-                  "features": {
-                    "dayAccess": "Access to {days}-day conference",
-                    "networking": "Networking session",
-                    "digitalBadge": "Digital badge",
-                    "vipSeating": "VIP seating",
-                    "boothSpace": "Company booth space"
-                  }
-                },
-                "attendees": {
-                  "heading": "ATTENDEES",
-                  "subheading": "Meet Our Participants",
-                  "tags": {
-                    "moderator": "Moderator",
-                    "participant": "Participant",
-                    "speaker": "Speaker",
-                    "organizer": "Organizer"
-                  },
-                  "stats": {
-                    "topics": "Topics",
-                    "since": "Since"
-                  },
-                  "list": [
-                    {
-                      "name": "John Doe",
-                      "tag": "Moderator",
-                      "bio": "Enthusiastic about Vietnamese innovation and culture."
-                    },
-                    {
-                      "name": "Nguyen Thi Lan",
-                      "tag": "Participant",
-                      "bio": "Passionate about heritage and entrepreneurship."
-                    },
-                    {
-                      "name": "Michael Chen",
-                      "tag": "Speaker",
-                      "bio": "Tech entrepreneur and innovation advocate."
-                    },
-                    {
-                      "name": "Tran Van Minh",
-                      "tag": "Organizer",
-                      "bio": "Dedicated to promoting Vietnamese heritage globally."
-                    }
-                  ]
-                },
-                "buyNow": {
-                  "button": "BUY NOW"
-                },
-                "testimonials": {
-                  "heading": "See What People Say About Us",
-                  "subheading": "Hear from our community of excellence",
-                  "list": [
-                    {
-                      "quote": "Culture is the identity of a nation. When culture survives, the nation survives. When culture is lost, the nation disappears. True happiness comes not only from wealth, but from richness of the soul and living among compassion, justice, and kindness.",
-                      "name": "Nguyễn Phú Trọng",
-                      "role": "General Secretary"
-                    },
-                    {
-                      "quote": "Culture is soft power — the inexhaustible original energy of the Vietnamese people. Culture lights the way for the nation and must be promoted globally.",
-                      "name": "Phạm Minh Chính",
-                      "role": "Prime Minister"
-                    },
-                    {
-                      "quote": "Culture profoundly influences and is closely connected to tourism development. It serves as both a spiritual foundation and an internal driving force for sustainable growth.",
-                      "name": "Nguyễn Văn Hùng",
-                      "role": "Minister of Culture, Sports and Tourism"
-                    },
-                    {
-                      "quote": "Digital transformation in the cultural sector is a major and essential trend to ensure international integration.",
-                      "name": "Tạ Quang Đông",
-                      "role": "Deputy Minister of Culture, Sports and Tourism"
-                    },
-                    {
-                      "quote": "Young people must understand the Vietnamese language and traditional arts. With that foundation, they can creatively and effectively absorb global cultural values.",
-                      "name": "Dương Trung Quốc",
-                      "role": "Historian"
-                    },
-                    {
-                      "quote": "In the era of globalization and social media, Vietnamese youth carry a dual mission: embracing global knowledge while preserving and spreading cultural identity.",
-                      "name": "Thanh Tra Newspaper",
-                      "role": "Editorial Commentary"
-                    }
-                  ]
-                }
+                "subheading": "Discover the Spirit and Quintessence of Vietnam",
+                "videoUrl": "https://youtu.be/MbXLt7OwEXI?si=z3UKuaxXYVN9pUyw"
               },
               "blogContent": {
+                "blogSectionContent": {
+                  "eyebrow": "Insights & Stories",
+                  "titleMain": "Latest Insights",
+                  "titleSub": "from Our Community",
+                  "subtitle": "Discover inspiring stories, cultural insights, and updates from the Vietnamese excellence community",
+                  "viewAllCta": "View All Articles"
+                },
                 "blogPosts": [
+                  {
+                    "id": "1",
+                    "slug": "honoring-vietnamese-excellence-2025",
+                    "title": "Honoring Vietnamese Excellence in 2025",
+                    "description": "Discover how Tinh Hoa Việt celebrates outstanding individuals who embody Vietnamese values and contribute to their communities with distinction.",
+                    "excerpt": "Learn about our 2025 recognition program celebrating Vietnamese individuals who demonstrate exceptional dedication to cultural preservation.",
+                    "author": {
+                      "name": "Minh Nguyen",
+                      "avatar": "👨‍💼",
+                      "role": "Senior Editor"
+                    },
+                    "date": "November 20, 2024",
+                    "readTime": "5 min read",
+                    "category": "Awards",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Honoring Vietnamese Excellence in 2025 | Tinh Hoa Việt",
+                      "metaDescription": "Discover how Tinh Hoa Việt honors outstanding Vietnamese individuals in 2025. Learn about our recognition criteria and nomination process.",
+                      "keywords": [
+                        "Vietnamese excellence",
+                        "community recognition",
+                        "2025 awards",
+                        "Vietnamese heritage"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Understanding Tinh Hoa Việt</h2>\n                <p>At Tinh Hoa Việt, we believe in celebrating excellence and preserving the rich cultural heritage of the Vietnamese community. This article explores the deeper meaning behind our mission and how it connects with traditional Vietnamese values.</p>\n                <p>Our community continues to demonstrate remarkable resilience and achievement across various fields. From business leadership to academic excellence, from cultural preservation to technological innovation, Vietnamese individuals worldwide are making significant contributions to their communities.</p>\n                \n                <h2>The Five Pillars Framework</h2>\n                <p>The foundation of our recognition framework is built upon five essential principles: Tâm (Heart/Character), Tài (Talent/Skill), Tín (Trust/Credibility), Trí (Wisdom/Intelligence), and Thể (Physical Health). These pillars reflect the holistic view of excellence in Vietnamese culture.</p>\n                \n                <blockquote>\"Excellence is not just about achievement, but about embodying the values that connect us to our heritage while building our future.\"</blockquote>\n                \n                <h2>Community Impact</h2>\n                <p>Through our programs and events, we have witnessed the transformative power of recognition and community support. By highlighting exceptional individuals, we inspire the next generation to pursue their own paths to excellence while staying connected to their Vietnamese roots.</p>\n                <p>We invite you to join us in this journey of celebration and inspiration. Whether through nominating outstanding community members, attending our events, or supporting our initiatives, your participation helps strengthen the bonds that unite our community.</p>\n                \n                <h3>Get Involved</h3>\n                <p>Help us recognize excellence in the Vietnamese community. Nominate someone deserving of recognition or learn more about our upcoming events.</p>\n              "
+                  },
                   {
                     "id": "2",
                     "slug": "five-pillars-vietnamese-heritage",
@@ -716,6 +487,232 @@ window.MAIN_CONTENT = {
                     "content": "\n                <h2>Understanding the 5T Framework</h2>\n                <p>At Tinh Hoa Việt, we believe in celebrating excellence and preserving the rich cultural heritage of the Vietnamese community. This article explores the deeper meaning behind our mission and how it connects with traditional Vietnamese values.</p>\n                <p>Our community continues to demonstrate remarkable resilience and achievement across various fields. From business leadership to academic excellence, from cultural preservation to technological innovation, Vietnamese individuals worldwide are making significant contributions to their communities.</p>\n                \n                <h2>The Five Pillars Framework</h2>\n                <p>The foundation of our recognition framework is built upon five essential principles: Tâm (Heart/Character), Tài (Talent/Skill), Tín (Trust/Credibility), Trí (Wisdom/Intelligence), and Thể (Physical Health). These pillars reflect the holistic view of excellence in Vietnamese culture.</p>\n                \n                <blockquote>\"Excellence is not just about achievement, but about embodying the values that connect us to our heritage while building our future.\"\n                </blockquote>\n                \n                <h2>Community Impact</h2>\n                <p>Through our programs and events, we have witnessed the transformative power of recognition and community support. By highlighting exceptional individuals, we inspire the next generation to pursue their own paths to excellence while staying connected to their Vietnamese roots.</p>\n                <p>We invite you to join us in this journey of celebration and inspiration. Whether through nominating outstanding community members, attending our events, or supporting our initiatives, your participation helps strengthen the bonds that unite our community.</p>\n                \n                <h3>Get Involved</h3>\n                <p>Help us recognize excellence in the Vietnamese community. Nominate someone deserving of recognition or learn more about our upcoming events.</p>\n              "
                   }
                 ]
+              },
+              "eventContent": {
+                "info": {
+                  "eventName": "PHP CONFERENCE IN ISTANBUL",
+                  "eventDate": "2025-12-25T09:00:00",
+                  "location": "3200 Barbaros Bulvan Besiktas/Istanbul, TR",
+                  "remainingTickets": 245,
+                  "speakersCount": 24
+                },
+                "hero": {
+                  "registerButton": "REGISTER NOW",
+                  "bgImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+                },
+                "checkout": {
+                  "title": "Complete Registration",
+                  "subtitle": "Event Registration",
+                  "form": {
+                    "nameLabel": "Full Name",
+                    "namePlaceholder": "John Doe",
+                    "emailLabel": "Email Address",
+                    "emailPlaceholder": "you@example.com",
+                    "phoneLabel": "Phone Number",
+                    "phonePlaceholder": "+1 (555) 123-4567",
+                    "companyLabel": "Company/Organization",
+                    "companyPlaceholder": "Your Company",
+                    "addressLabel": "Address",
+                    "addressPlaceholder": "123 Main Street",
+                    "submitButton": "Complete Registration"
+                  },
+                  "summary": {
+                    "title": "Order Summary",
+                    "selectPlan": "Select Plan",
+                    "total": "Total"
+                  }
+                },
+                "success": {
+                  "title": "Registration Successful!",
+                  "message": "Thank you for registering for",
+                  "details": {
+                    "event": "Event:",
+                    "date": "Date:",
+                    "location": "Location:"
+                  },
+                  "info": {
+                    "email": "📧 You will receive an email confirmation shortly with your ticket details.",
+                    "save": "📱 Please save this confirmation for event entry."
+                  },
+                  "actions": {
+                    "backToEvent": "← Back to Event Page",
+                    "viewAdmission": "View Admission Portal"
+                  }
+                },
+                "fail": {
+                  "title": "Registration Failed",
+                  "message": "We couldn't process your registration for",
+                  "reasons": {
+                    "title": "This could be due to:",
+                    "list": [
+                      "Payment processing error",
+                      "Network connection issues",
+                      "Event capacity reached",
+                      "Invalid payment information"
+                    ]
+                  },
+                  "actions": {
+                    "retry": "Try Again",
+                    "backToEvent": "← Back to Event"
+                  },
+                  "support": {
+                    "title": "Need help? Contact our support team:",
+                    "email": "📧 support@tinhhoaviet.com",
+                    "phone": "📞 +1 (555) 123-4567"
+                  }
+                },
+                "admission": {
+                  "title": "Event Admission",
+                  "states": {
+                    "scanner": {
+                      "title": "Waiting for QR Code…",
+                      "description": "Point the scanner at a ticket QR."
+                    },
+                    "fail": {
+                      "title": "QR Code not found",
+                      "description": "This code does not match any ticket."
+                    },
+                    "used": {
+                      "title": "Ticket already used",
+                      "description": "This ticket has already been admitted."
+                    },
+                    "valid": {
+                      "title": "Valid Ticket",
+                      "description": "Ticket is valid and unused. Admit now.",
+                      "button": "Admit User"
+                    },
+                    "success": {
+                      "title": "Admission Successful",
+                      "description": "Welcome to the event!"
+                    }
+                  },
+                  "debug": {
+                    "scanner": "Scanner",
+                    "failed": "Failed",
+                    "used": "Used",
+                    "valid": "Valid",
+                    "success": "Success"
+                  }
+                },
+                "about": {
+                  "title": "What's going on there come and learn",
+                  "description": "Join us for an unforgettable experience at the PHP Conference Istanbul 2024. This premier event brings together the brightest minds in web development, offering unparalleled opportunities for learning, networking, and innovation. Discover cutting-edge technologies, engage with industry experts, and be part of the vibrant PHP community.",
+                  "registerButton": "REGISTER",
+                  "videoButton": "WATCH VIDEO"
+                },
+                "speakers": {
+                  "heading": "ADVISORY BOARD",
+                  "subheading": "",
+                  "list": [
+                    {
+                      "name": "Dr. Nguyen Hoai Vu",
+                      "title": "Director – BaoChi.Online – ANKT.VN",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/z7098045002921_21d527f51a0be0a73941319983456019.jpg?updatedAt=1763038666572"
+                    },
+                    {
+                      "name": "Nguyen Minh Khoi",
+                      "title": "Deputy Director – Vietnam Digital Event Center",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/Gemini_Generated_Image_wqv8l4wqv8l4wqv8.png?updatedAt=1763039192539"
+                    },
+                    {
+                      "name": "Le Dai Loc",
+                      "title": "Deputy Director – Vietnam Digital Event Center",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/New%20folder/shinwari-green-resturent_Fwjee4DYR?updatedAt=1763038988315"
+                    }
+                  ]
+                },
+                "pricing": {
+                  "heading": "EVENT PRICE LIST",
+                  "subheading": "Perfect Price for Event",
+                  "registerButton": "REGISTER",
+                  "plans": {
+                    "personal": "Personal",
+                    "business": "Business",
+                    "corporate": "Corporate"
+                  },
+                  "features": {
+                    "dayAccess": "Access to {days}-day conference",
+                    "networking": "Networking session",
+                    "digitalBadge": "Digital badge",
+                    "vipSeating": "VIP seating",
+                    "boothSpace": "Company booth space"
+                  }
+                },
+                "attendees": {
+                  "heading": "ATTENDEES",
+                  "subheading": "Meet Our Participants",
+                  "tags": {
+                    "moderator": "Moderator",
+                    "participant": "Participant",
+                    "speaker": "Speaker",
+                    "organizer": "Organizer"
+                  },
+                  "stats": {
+                    "topics": "Topics",
+                    "since": "Since"
+                  },
+                  "list": [
+                    {
+                      "name": "John Doe",
+                      "tag": "Moderator",
+                      "bio": "Enthusiastic about Vietnamese innovation and culture."
+                    },
+                    {
+                      "name": "Nguyen Thi Lan",
+                      "tag": "Participant",
+                      "bio": "Passionate about heritage and entrepreneurship."
+                    },
+                    {
+                      "name": "Michael Chen",
+                      "tag": "Speaker",
+                      "bio": "Tech entrepreneur and innovation advocate."
+                    },
+                    {
+                      "name": "Tran Van Minh",
+                      "tag": "Organizer",
+                      "bio": "Dedicated to promoting Vietnamese heritage globally."
+                    }
+                  ]
+                },
+                "buyNow": {
+                  "button": "BUY NOW"
+                },
+                "testimonials": {
+                  "heading": "See What People Say About Us",
+                  "subheading": "Hear from our community of excellence",
+                  "list": [
+                    {
+                      "quote": "Culture is the identity of a nation. When culture survives, the nation survives. When culture is lost, the nation disappears. True happiness comes not only from wealth, but from richness of the soul and living among compassion, justice, and kindness.",
+                      "name": "Nguyễn Phú Trọng",
+                      "role": "General Secretary"
+                    },
+                    {
+                      "quote": "Culture is soft power — the inexhaustible original energy of the Vietnamese people. Culture lights the way for the nation and must be promoted globally.",
+                      "name": "Phạm Minh Chính",
+                      "role": "Prime Minister"
+                    },
+                    {
+                      "quote": "Culture profoundly influences and is closely connected to tourism development. It serves as both a spiritual foundation and an internal driving force for sustainable growth.",
+                      "name": "Nguyễn Văn Hùng",
+                      "role": "Minister of Culture, Sports and Tourism"
+                    },
+                    {
+                      "quote": "Digital transformation in the cultural sector is a major and essential trend to ensure international integration.",
+                      "name": "Tạ Quang Đông",
+                      "role": "Deputy Minister of Culture, Sports and Tourism"
+                    },
+                    {
+                      "quote": "Young people must understand the Vietnamese language and traditional arts. With that foundation, they can creatively and effectively absorb global cultural values.",
+                      "name": "Dương Trung Quốc",
+                      "role": "Historian"
+                    },
+                    {
+                      "quote": "In the era of globalization and social media, Vietnamese youth carry a dual mission: embracing global knowledge while preserving and spreading cultural identity.",
+                      "name": "Thanh Tra Newspaper",
+                      "role": "Editorial Commentary"
+                    }
+                  ]
+                }
               }
             }
           },
@@ -757,27 +754,32 @@ window.MAIN_CONTENT = {
                 {
                   "step": "01",
                   "title": "Submission",
-                  "description": "Submit your nomination with required documentation"
+                  "description": "Submit your nomination with required documentation",
+                  "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop"
                 },
                 {
                   "step": "02",
                   "title": "Review",
-                  "description": "Our experts review against 5T Principles & 8 Factors"
+                  "description": "Our experts review against 5T Principles & 8 Factors",
+                  "image": "https://plus.unsplash.com/premium_photo-1661313763836-096eb2bd7393?w=500&auto=format&fit=crop&q=60"
                 },
                 {
                   "step": "03",
                   "title": "Verification",
-                  "description": "Thorough verification of claims and achievements"
+                  "description": "Thorough verification of claims and achievements",
+                  "image": "https://media.istockphoto.com/id/1610418898/photo/online-survey-and-digital-form-checklist-by-laptop-computer-document-management-checking.webp?a=1&b=1&s=612x612&w=0&k=20&c=1TG9GIWnPyVXAGsIiXKkM3rHB_6MbENTTUu9ehIk4uo="
                 },
                 {
                   "step": "04",
                   "title": "Validation",
-                  "description": "Final validation and approval by the committee"
+                  "description": "Final validation and approval by the committee",
+                  "image": "https://plus.unsplash.com/premium_photo-1682126150250-65a653ee9eec?w=500&auto=format&fit=crop&q=60"
                 },
                 {
                   "step": "05",
                   "title": "Final Recognition",
-                  "description": "Approved honorees are announced and added to the official archive"
+                  "description": "Approved honorees are announced and added to the official archive",
+                  "image": "https://plus.unsplash.com/premium_photo-1713102864696-e44ae2503d6e?w=500&auto=format&fit=crop&q=60"
                 }
               ],
               "processEligibility": [
@@ -827,6 +829,235 @@ window.MAIN_CONTENT = {
                 "expertReview": "Expert Review",
                 "submitEvidence": "Submit Evidence",
                 "officialRecognition": "Official Recognition"
+              }
+            }
+          },
+          "nominate": {
+            "section": {
+              "nominateHero": {
+                "bgImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1920&auto=format&fit=crop",
+                "eyebrow": "Official Registration",
+                "titleMain": "Nomination Form",
+                "titleSub": "Establishing Tinh Hoa Viet",
+                "description": "Help us identify and honor individuals, organizations, and products that embody Vietnam's quintessence through the 5T Principles and 8 Factors framework."
+              },
+              "officialForm": {
+                "header": {
+                  "org": "VIIDS INSTITUTE FOR DEVELOPMENT ISSUES",
+                  "center": "TINH HOA VIET VERIFICATION AND ESTABLISHMENT CENTER",
+                  "formNo": "Form No: 01/2026",
+                  "country": "SOCIALIST REPUBLIC OF VIETNAM",
+                  "motto": "Independence - Freedom - Happiness"
+                },
+                "title": "NOMINATION FORM FOR ESTABLISHING TINH HOA VIET",
+                "intro": [
+                  "With the aim of honoring and spreading the sustainable, creative, and exemplary values of individuals and organizations contributing to the development of the Vietnamese community, we cordially invite your unit to submit a nomination for the 'TINH HOA VIET' recognition program.",
+                  "The verification and establishment process will be carried out rigorously according to the 5T Principles and 8 Factors of Vietnamese Quintessence, ensuring transparency and official recognition at the national level."
+                ],
+                "contactInfo": {
+                  "phone": "Hotline: 0989553535 - 0982437413",
+                  "email": "info@tinhhoaviet.org.vn",
+                  "web": "www.tinhhoaviet.org.vn"
+                },
+                "parts": {
+                  "part1": {
+                    "title": "PART 1: CLASSIFICATION & CATEGORY",
+                    "field1": {
+                      "label": "1. We are *",
+                      "options": [
+                        "We are Enterprises",
+                        "We are Governmental Agencies/Organizations or related",
+                        "We are Schools",
+                        "We are Religious Units",
+                        "I am an Individual (Self-nomination)",
+                        "Other (Mục khác)"
+                      ]
+                    },
+                    "field2": {
+                      "label": "2. Category *",
+                      "options": [
+                        "TINH HOA XƯA VÀ NAY",
+                        "TINH HOA VĂN HÓA",
+                        "TINH HOA SÁNG TẠO",
+                        "TINH HOA NGUYÊN BẢN",
+                        "TINH HOA TRÍ TUỆ",
+                        "TINH HOA TRƯỜNG TỒN",
+                        "TINH HOA ĐỘC BẢN",
+                        "TINH HOA Ý CHÍ",
+                        "TINH HOA GIÁO DỤC"
+                      ]
+                    }
+                  },
+                  "part2": {
+                    "title": "PART 2: DETAILED INFORMATION",
+                    "partA": {
+                      "title": "PART A: UNIT INFORMATION",
+                      "fields": {
+                        "fullName": "3. FULL NAME OF NOMINATING UNIT *",
+                        "fullNamePlaceholder": "Enter unit full legal name",
+                        "taxCode": "4. TAX CODE / NOMINATING UNIT ID *",
+                        "taxCodePlaceholder": "Enter tax code or business ID",
+                        "address": "5. HEADQUARTERS ADDRESS *",
+                        "addressPlaceholder": "Enter full headquarters address",
+                        "legalRep": "6. LEGAL REPRESENTATIVE NAME *",
+                        "legalRepPlaceholder": "Enter full name as per license",
+                        "position": "7. POSITION ON LICENSE *",
+                        "positionPlaceholder": "Enter official position (e.g. CEO, Director)",
+                        "repPhone": "8. REPRESENTATIVE PHONE NUMBER *",
+                        "repPhonePlaceholder": "Enter official phone number",
+                        "email": "9. UNIT E-MAIL *",
+                        "emailPlaceholder": "example@company.com"
+                      }
+                    },
+                    "partB": {
+                      "title": "PART B: REPRESENTATIVE INFORMATION",
+                      "fields": {
+                        "fullName": "10. FULL NAME *",
+                        "fullNamePlaceholder": "Enter representative's full name",
+                        "phone": "11. CONTACT PHONE NUMBER *",
+                        "phonePlaceholder": "Enter personal contact number",
+                        "address": "12. PERMANENT ADDRESS *",
+                        "addressPlaceholder": "Enter full residential address",
+                        "email": "13. E-MAIL *",
+                        "emailPlaceholder": "Enter contact email address",
+                        "cccd": "14. CHIP-BASED CCCD INFORMATION *",
+                        "cccdPlaceholder": "ID Number + Issue Date + Place of Issue",
+                        "dob": "15. DATE OF BIRTH *",
+                        "dobPlaceholder": "Select date of birth"
+                      }
+                    },
+                    "partC": {
+                      "title": "PART C - PROFILE INFORMATION",
+                      "fields": {
+                        "content": "16. NOMINATION CONTENT *",
+                        "contentPlaceholder": "Short summary of the nomination goal",
+                        "description": "17. DETAILED DESCRIPTION *",
+                        "descriptionPlaceholder": "Provide detailed achievements and values",
+                        "media": "18. IMAGES / VIDEO *",
+                        "mediaPlaceholder": "Provide Google Drive or YouTube link",
+                        "source": "19. SOURCE (LINK) *",
+                        "sourcePlaceholder": "Article link or 'NONE'",
+                        "certificate": "20. CERTIFICATION / MERIT *",
+                        "certificatePlaceholder": "Portfolio link or 'NONE'",
+                        "estimatedTime": "21. ESTIMATED TIME *",
+                        "estimatedTimePlaceholder": "e.g. 3 months or 1 year",
+                        "eventTime": "22. EXPECTED EVENT TIME *",
+                        "eventTimePlaceholder": "Select expected date",
+                        "location": "23. LOCATION / POSITION *",
+                        "locationPlaceholder": "City/Province or specific venue"
+                      }
+                    }
+                  },
+                  "final": {
+                    "commitment": {
+                      "label": "24. COMMITMENT *",
+                      "text": "I commit that all the information stated above is true. If there is any inaccuracy, I will take full responsibility before the law and the Verification Center."
+                    }
+                  }
+                },
+                "footer": {
+                  "location": "Ho Chi Minh City, Day … Month … Year 2026.",
+                  "nomineeSign": "NOMINATION APPLICANT",
+                  "nomineeSignNote": "(Sign, write full name)",
+                  "unitSign": "NOMINATING UNIT",
+                  "unitSignNote": "(Sign, write full name of representative and stamp)"
+                }
+              }
+            }
+          },
+          "contact": {
+            "section": {
+              "contactHeroContent": {
+                "bgImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1920&auto=format&fit=crop",
+                "eyebrow": "Get In Touch",
+                "titleMain": "Contact Us",
+                "titleSub": "Connect with Vietnam's Quintessence Verification Center",
+                "description": "Have questions, want to submit a nomination, or need help? We're here to support you."
+              },
+              "contactInfoCards": [
+                {
+                  "icon": "FiMail",
+                  "title": "Email Us",
+                  "lines": [
+                    "info@tinhhoaviet.org.vn"
+                  ]
+                },
+                {
+                  "icon": "FiPhone",
+                  "title": "Call Us",
+                  "lines": [
+                    "Hotline: 0989553535",
+                    "Verifier: 0982437413"
+                  ]
+                },
+                {
+                  "icon": "FiMapPin",
+                  "title": "Visit Us",
+                  "lines": [
+                    "181 Đề Thám, Bến Thành, District 1, HCMC, Vietnam"
+                  ]
+                }
+              ],
+              "contactFormContent": {
+                "header": {
+                  "title": "Send us a Message",
+                  "description": "We'd love to hear from you. Send us a message and we'll respond as soon as possible."
+                },
+                "fields": [
+                  {
+                    "id": "name",
+                    "name": "name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": " ",
+                    "label": "Full Name *"
+                  },
+                  {
+                    "id": "email",
+                    "name": "email",
+                    "type": "email",
+                    "required": true,
+                    "placeholder": " ",
+                    "label": "Email Address *"
+                  },
+                  {
+                    "id": "phone",
+                    "name": "phone",
+                    "type": "tel",
+                    "required": false,
+                    "placeholder": " ",
+                    "label": "Phone Number"
+                  },
+                  {
+                    "id": "subject",
+                    "name": "subject",
+                    "type": "select",
+                    "required": true,
+                    "options": [
+                      "General Inquiry",
+                      "Nomination Submission",
+                      "Verification Process",
+                      "Partnership Opportunity",
+                      "Media & Press",
+                      "Technical Support"
+                    ],
+                    "label": "Subject *"
+                  },
+                  {
+                    "id": "message",
+                    "name": "message",
+                    "type": "textarea",
+                    "required": true,
+                    "rows": 6,
+                    "placeholder": " ",
+                    "label": "Your Message *"
+                  }
+                ],
+                "submitButton": {
+                  "icon": "FiSend",
+                  "text": "Send Message"
+                },
+                "note": "By submitting this form, you agree to our privacy policy and terms of service."
               }
             }
           }
@@ -970,82 +1201,33 @@ window.MAIN_CONTENT = {
                 ],
                 "contact": [
                   {
-                    "icon": {
-                      "type": "FiMapPin",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiMapPin",
                     "label": "123 Phố Hà Nội, Việt Nam"
                   },
                   {
-                    "icon": {
-                      "type": "FiMail",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiMail",
                     "label": "info@tinhhoaviet.org"
                   },
                   {
-                    "icon": {
-                      "type": "FiPhone",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiPhone",
                     "label": "+84 123 456 789"
                   }
                 ],
                 "socialLinks": [
                   {
-                    "icon": {
-                      "type": "FiFacebook",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiFacebook",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiLinkedin",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiLinkedin",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiYoutube",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiYoutube",
                     "href": "#"
                   },
                   {
-                    "icon": {
-                      "type": "FiTwitter",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    },
+                    "icon": "FiTwitter",
                     "href": "#"
                   }
                 ],
@@ -1249,7 +1431,193 @@ window.MAIN_CONTENT = {
               },
               "featuredVideoContent": {
                 "heading": "VIDEO NỔI BẬT",
-                "subheading": "Khám phá Tinh thần và Tinh hoa Việt Nam"
+                "subheading": "Khám phá Tinh thần và Tinh hoa Việt Nam",
+                "videoUrl": "https://youtu.be/MbXLt7OwEXI?si=z3UKuaxXYVN9pUyw"
+              },
+              "blogContent": {
+                "blogSectionContent": {
+                  "eyebrow": "Góc Nhìn & Câu Chuyện",
+                  "titleMain": "Bài Viết Mới Nhất",
+                  "titleSub": "từ Cộng đồng chúng tôi",
+                  "subtitle": "Khám phá những câu chuyện truyền cảm hứng, góc nhìn văn hóa và cập nhật từ cộng đồng tinh hoa Việt Nam",
+                  "viewAllCta": "Xem Tất Cả Bài Viết"
+                },
+                "blogPosts": [
+                  {
+                    "id": "1",
+                    "slug": "honoring-vietnamese-excellence-2025",
+                    "title": "Tôn Vinh Sự Xuất Sắc Việt Nam 2025",
+                    "description": "Khám phá cách Tinh Hoa Việt tôn vinh những cá nhân xuất sắc thể hiện giá trị Việt Nam và đóng góp cho cộng đồng.",
+                    "excerpt": "Tìm hiểu về chương trình công nhận 2025 tôn vinh những cá nhân Việt Nam thể hiện sự cống hiến đặc biệt cho bảo tồn văn hóa.",
+                    "author": {
+                      "name": "Minh Nguyễn",
+                      "avatar": "👨‍💼",
+                      "role": "Biên Tập Viên Chính"
+                    },
+                    "date": "20 Tháng 11, 2024",
+                    "readTime": "5 phút đọc",
+                    "category": "Giải Thưởng",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Tôn Vinh Sự Xuất Sắc Việt Nam 2025 | Tinh Hoa Việt",
+                      "metaDescription": "Khám phá cách Tinh Hoa Việt tôn vinh những cá nhân Việt Nam xuất sắc năm 2025. Tìm hiểu tiêu chí và quy trình đề cử.",
+                      "keywords": [
+                        "tinh hoa Việt Nam",
+                        "công nhận cộng đồng",
+                        "giải thưởng 2025",
+                        "di sản Việt Nam"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  },
+                  {
+                    "id": "2",
+                    "slug": "five-pillars-vietnamese-heritage",
+                    "title": "Năm Trụ Cột Của Di Sản Việt Nam",
+                    "description": "Khám phá những nguyên tắc cơ bản định hướng khung công nhận: Tâm, Tài, Tín, Trí, và Thể - bản chất của sự xuất sắc Việt Nam.",
+                    "excerpt": "Tìm hiểu sâu về khung 5T định nghĩa tinh hoa Việt Nam: Tâm, Tài, Tín, Trí, và Thể.",
+                    "author": {
+                      "name": "Lan Phạm",
+                      "avatar": "👩‍🎓",
+                      "role": "Nhà Nghiên Cứu Văn Hóa"
+                    },
+                    "date": "15 Tháng 11, 2024",
+                    "readTime": "7 phút đọc",
+                    "category": "Văn Hóa",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Năm Trụ Cột Di Sản Việt Nam: Khung 5T",
+                      "metaDescription": "Hiểu về Nguyên Tắc 5T - Tâm, Tài, Tín, Trí, Thể. Khám phá cách những trụ cột này định nghĩa sự xuất sắc Việt Nam.",
+                      "keywords": [
+                        "văn hóa Việt Nam",
+                        "nguyên tắc 5T",
+                        "giá trị Việt Nam",
+                        "di sản văn hóa"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  },
+                  {
+                    "id": "3",
+                    "slug": "nominate-community-leader-today",
+                    "title": "Đề Cử Lãnh Đạo Cộng Đồng Ngay Hôm Nay",
+                    "description": "Tìm hiểu về quy trình đề cử và cách bạn có thể công nhận những cá nhân xuất sắc tạo nên sự khác biệt trong cộng đồng.",
+                    "excerpt": "Hướng dẫn từng bước để đề cử những lãnh đạo cộng đồng Việt Nam xuất sắc. Khám phá tiêu chí và tài liệu.",
+                    "author": {
+                      "name": "Thái Trần",
+                      "avatar": "👨‍💻",
+                      "role": "Quản Lý Cộng Đồng"
+                    },
+                    "date": "10 Tháng 11, 2024",
+                    "readTime": "4 phút đọc",
+                    "category": "Đề Cử",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Cách Đề Cử Lãnh Đạo Cộng Đồng Việt Nam",
+                      "metaDescription": "Hướng dẫn đầy đủ để đề cử những lãnh đạo cộng đồng Việt Nam xuất sắc. Tìm hiểu về tiêu chí và quy trình.",
+                      "keywords": [
+                        "đề cử lãnh đạo",
+                        "công nhận cộng đồng",
+                        "lãnh đạo Việt Nam",
+                        "quy trình đề cử"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  },
+                  {
+                    "id": "4",
+                    "slug": "success-stories-2024-honorees",
+                    "title": "Câu Chuyện Thành Công: Danh Hiệu 2024",
+                    "description": "Đọc những câu chuyện truyền cảm hứng từ các danh hiệu 2024 và tìm hiểu cách họ thể hiện sự xuất sắc.",
+                    "excerpt": "Tôn vinh thành tựu của những danh hiệu Tinh Hoa Việt 2024 - doanh nhân, nghệ sĩ, nhà khoa học và lãnh đạo cộng đồng.",
+                    "author": {
+                      "name": "Minh Nguyễn",
+                      "avatar": "👨‍💼",
+                      "role": "Biên Tập Viên Chính"
+                    },
+                    "date": "5 Tháng 11, 2024",
+                    "readTime": "8 phút đọc",
+                    "category": "Câu Chuyện",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Câu Chuyện Thành Công Danh Hiệu 2024 | Tinh Hoa Việt",
+                      "metaDescription": "Những câu chuyện truyền cảm hứng từ danh hiệu Tinh Hoa Việt 2024. Gặp gỡ doanh nhân và lãnh đạo định hình cộng đồng.",
+                      "keywords": [
+                        "câu chuyện thành công",
+                        "danh hiệu 2024",
+                        "doanh nhân Việt Nam",
+                        "lãnh đạo cộng đồng"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  },
+                  {
+                    "id": "5",
+                    "slug": "building-bridges-across-generations",
+                    "title": "Xây Dựng Cầu Nối Giữa Các Thế Hệ",
+                    "description": "Cách Tinh Hoa Việt kết nối các giá trị truyền thống với thành tựu hiện đại để truyền cảm hứng cho thế hệ tương lai.",
+                    "excerpt": "Kết nối các khoảng cách thế hệ thông qua bảo tồn văn hóa và đổi mới trong cộng đồng Việt Nam.",
+                    "author": {
+                      "name": "Lan Phạm",
+                      "avatar": "👩‍🎓",
+                      "role": "Nhà Nghiên Cứu Văn Hóa"
+                    },
+                    "date": "28 Tháng 10, 2024",
+                    "readTime": "6 phút đọc",
+                    "category": "Cộng Đồng",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Xây Dựng Cầu Nối Giữa Các Thế Hệ | Tinh Hoa Việt",
+                      "metaDescription": "Cách Tinh Hoa Việt kết nối các thế hệ thông qua giá trị chung. Bảo tồn truyền thống trong khi đón nhận đổi mới.",
+                      "keywords": [
+                        "cầu nối thế hệ",
+                        "bảo tồn văn hóa",
+                        "thanh niên Việt Nam",
+                        "truyền thống và đổi mới"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  },
+                  {
+                    "id": "6",
+                    "slug": "impact-of-recognition-on-community",
+                    "title": "Tác Động Của Sự Công Nhận Đối Với Cộng Đồng",
+                    "description": "Khám phá cách tôn vinh sự xuất sắc củng cố cộng đồng và tạo ra thay đổi tích cực lâu dài trong xã hội Việt Nam.",
+                    "excerpt": "Những hiểu biết dựa trên nghiên cứu về cách chương trình công nhận củng cố liên kết xã hội và truyền cảm hứng.",
+                    "author": {
+                      "name": "Thái Trần",
+                      "avatar": "👨‍💻",
+                      "role": "Quản Lý Cộng Đồng"
+                    },
+                    "date": "20 Tháng 10, 2024",
+                    "readTime": "5 phút đọc",
+                    "category": "Góc Nhìn",
+                    "featured": true,
+                    "seo": {
+                      "metaTitle": "Tác Động Của Chương Trình Công Nhận Cộng Đồng",
+                      "metaDescription": "Cách chương trình công nhận củng cố cộng đồng Việt Nam toàn cầu. Những hiểu biết dựa trên dữ liệu về bảo tồn văn hóa.",
+                      "keywords": [
+                        "tác động cộng đồng",
+                        "chương trình công nhận",
+                        "gắn kết xã hội",
+                        "cộng đồng Việt Nam"
+                      ],
+                      "ogImage": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&h=630&fit=crop&q=80",
+                      "ogType": "article"
+                    },
+                    "content": "\n                <h2>Hiểu về Tinh Hoa Việt</h2>\n                <p>Tại Tinh Hoa Việt, chúng tôi tin tưởng vào việc tôn vinh sự xuất sắc và bảo tồn di sản văn hóa phong phú của cộng đồng Việt Nam. Bài viết này khám phá ý nghĩa sâu sắc đằng sau sứ mệnh của chúng tôi và cách nó kết nối với các giá trị truyền thống Việt Nam.</p>\n                <p>Cộng đồng của chúng tôi tiếp tục thể hiện sự kiên cường và thành tựu đáng kể trên nhiều lĩnh vực. Từ lãnh đạo doanh nghiệp đến xuất sắc học thuật, từ bảo tồn văn hóa đến đổi mới công nghệ, người Việt Nam trên toàn thế giới đang đóng góp quan trọng cho cộng đồng của họ.</p>\n                \n                <h2>Khung Năm Trụ Cột</h2>\n                <p>Nền tảng của khung công nhận của chúng tôi được xây dựng dựa trên năm nguyên tắc thiết yếu: Tâm (Trái tim/Tính cách), Tài (Tài năng/Kỹ năng), Tín (Lòng Tin/Uy tín), Trí (Trí tuệ), và Thể (Sức khỏe). Những trụ cột này phản ánh cái nhìn toàn diện về sự xuất sắc trong văn hóa Việt Nam.</p>\n                \n                <blockquote>\"Sự xuất sắc không chỉ là về thành tựu, mà là về việc thể hiện các giá trị kết nối chúng ta với di sản trong khi xây dựng tương lai của chúng ta.\"</blockquote>\n                \n                <h2>Tác Động Cộng Đồng</h2>\n                <p>Thông qua các chương trình và sự kiện của chúng tôi, chúng tôi đã chứng kiến sức mạnh biến đổi của sự công nhận và hỗ trợ cộng đồng. Bằng cách nổi bật những cá nhân xuất sắc, chúng tôi truyền cảm hứng cho thế hệ tiếp theo theo đuổi con đường xuất sắc của riêng họ trong khi vẫn gắn kết với nguồn gốc Việt Nam.</p>\n                <p>Chúng tôi mời bạn tham gia cùng chúng tôi trong hành trình tôn vinh và truyền cảm hứng này. Dù thông qua việc đề cử các thành viên cộng đồng xuất sắc, tham dự các sự kiện của chúng tôi, hoặc hỗ trợ các sáng kiến của chúng tôi, sự tham gia của bạn giúp củng cố những liên kết kết nối cộng đồng của chúng ta.</p>\n                \n                <h3>Tham Gia</h3>\n                <p>Giúp chúng tôi công nhận sự xuất sắc trong cộng đồng Việt Nam. Đề cử người xứng đáng được công nhận hoặc tìm hiểu thêm về các sự kiện sắp tới của chúng tôi.</p>\n              "
+                  }
+                ]
               },
               "eventContent": {
                 "hero": {
@@ -1362,17 +1730,20 @@ window.MAIN_CONTENT = {
                     {
                       "name": "TS. Nguyễn Hoài Vũ",
                       "title": "Giám đốc – BaoChi.Online – MXH ANKT.VN",
-                      "description": ""
+                      "description": "",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/z7098045002921_21d527f51a0be0a73941319983456019.jpg?updatedAt=1763038666572"
                     },
                     {
                       "name": "Nguyễn Minh Khôi",
                       "title": "Phó Giám đốc Thường trực – Trung tâm Event Số Việt Nam",
-                      "description": ""
+                      "description": "",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/Gemini_Generated_Image_wqv8l4wqv8l4wqv8.png?updatedAt=1763039192539"
                     },
                     {
                       "name": "Lê Đại Lộc",
                       "title": "Phó Giám đốc – Trung tâm Event Số Việt Nam",
-                      "description": ""
+                      "description": "",
+                      "image": "https://ik.imagekit.io/dloitl7fd8/New%20folder/shinwari-green-resturent_Fwjee4DYR?updatedAt=1763038988315"
                     }
                   ]
                 },
@@ -1456,6 +1827,139 @@ window.MAIN_CONTENT = {
               }
             }
           },
+          "nominate": {
+            "section": {
+              "nominateHero": {
+                "bgImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1920&auto=format&fit=crop",
+                "eyebrow": "Đăng ký chính thức",
+                "titleMain": "Đơn đề cử",
+                "titleSub": "Xác lập Tinh hoa Việt",
+                "description": "Hãy giúp chúng tôi xác định và tôn vinh những cá nhân, tổ chức và sản phẩm thể hiện tinh hoa Việt Nam thông qua khung Nguyên tắc 5T và 8 Yếu tố."
+              },
+              "officialForm": {
+                "header": {
+                  "org": "VIỆN NHỮNG VẤN ĐỀ PHÁT TRIỂN VIDS",
+                  "center": "TT KIỂM ĐỊNH VÀ XÁC LẬP TINH HOA VIỆT",
+                  "formNo": "Mẫu đơn số: 01/2026",
+                  "country": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+                  "motto": "Độc lập - Tự do - Hạnh phúc"
+                },
+                "title": "ĐƠN ĐỀ CỬ XÁC LẬP TINH HOA VIỆT",
+                "intro": [
+                  "Nhằm tôn vinh và lan tỏa các giá trị bền vững, sáng tạo và gương mẫu của các cá nhân, tổ chức đóng góp cho sự phát triển của cộng đồng Việt Nam, chúng tôi trân trọng kính mời quý đơn vị nộp đơn đề cử chương trình công nhận 'TINH HOA VIỆT'.",
+                  "Quy trình thẩm định và xác lập sẽ được thực hiện nghiêm túc theo khung Nguyên tắc 5T và 8 Yếu tố Tinh hoa Việt, đảm bảo tính minh bạch và công nhận chính thức ở cấp quốc gia."
+                ],
+                "contactInfo": {
+                  "phone": "Hotline: 0989553535 - 0982437413",
+                  "email": "info@tinhhoaviet.org.vn",
+                  "web": "www.tinhhoaviet.org.vn"
+                },
+                "parts": {
+                  "part1": {
+                    "title": "PHẦN 1: PHÂN LOẠI ĐỐI TƯỢNG & HẠNG MỤC",
+                    "field1": {
+                      "label": "1. Chúng tôi là *",
+                      "options": [
+                        "Chúng tôi là Doanh nghiệp",
+                        "Chúng tôi là Cơ quan/Tổ chức thuộc Nhà nước hoặc có liên quan",
+                        "Chúng tôi là Trường học",
+                        "Chúng tôi là Đơn vị Tôn Giáo",
+                        "Tôi là Cá nhân (Cá nhân tự đề cử)",
+                        "Mục khác"
+                      ]
+                    },
+                    "field2": {
+                      "label": "2. Hạng mục *",
+                      "options": [
+                        "TINH HOA XƯA VÀ NAY",
+                        "TINH HOA VĂN HÓA",
+                        "TINH HOA SÁNG TẠO",
+                        "TINH HOA NGUYÊN BẢN",
+                        "TINH HOA TRÍ TUỆ",
+                        "TINH HOA TRƯỜNG TỒN",
+                        "TINH HOA ĐỘC BẢN",
+                        "TINH HOA Ý CHÍ",
+                        "TINH HOA GIÁO DỤC"
+                      ]
+                    }
+                  },
+                  "part2": {
+                    "title": "PHẦN 2: THÔNG TIN CHI TIẾT",
+                    "partA": {
+                      "title": "PHẦN A: THÔNG TIN CỦA ĐƠN VỊ",
+                      "fields": {
+                        "fullName": "3. TÊN ĐẦY ĐỦ ĐƠN VỊ ĐỀ CỬ *",
+                        "fullNamePlaceholder": "Nhập tên pháp lý đầy đủ của đơn vị",
+                        "taxCode": "4. MÃ SỐ THUẾ / MÃ SỐ ĐƠN VỊ ĐỀ CỬ *",
+                        "taxCodePlaceholder": "Nhập mã số thuế hoặc mã số doanh nghiệp",
+                        "address": "5. ĐỊA CHỈ TRỤ SỞ CHÍNH CỦA ĐƠN VỊ *",
+                        "addressPlaceholder": "Nhập địa chỉ trụ sở chính đầy đủ",
+                        "legalRep": "6. TÊN NGƯỜI ĐẠI DIỆN PHÁP LUẬT ĐƠN VỊ *",
+                        "legalRepPlaceholder": "Nhập họ tên người đại diện pháp luật",
+                        "position": "7. CHỨC VỤ NGƯỜI ĐẠI DIỆN TRÊN GIẤY PHÉP *",
+                        "positionPlaceholder": "Ví dụ: Chủ tịch, Giám đốc, Tổng giám đốc",
+                        "repPhone": "8. SỐ ĐIỆN THOẠI LIÊN HỆ NGƯỜI ĐẠI DIỆN PHÁP LUẬT ĐƠN VỊ *",
+                        "repPhonePlaceholder": "Nhập số điện thoại liên hệ chính thức",
+                        "email": "9. E-MAIL ĐƠN VỊ *",
+                        "emailPlaceholder": "example@company.com.vn"
+                      }
+                    },
+                    "partB": {
+                      "title": "PHẦN B: THÔNG TIN NGƯỜI ĐẠI DIỆN",
+                      "fields": {
+                        "fullName": "10. HỌ VÀ TÊN ĐẦY ĐỦ *",
+                        "fullNamePlaceholder": "Nhập họ và tên người đại diện",
+                        "phone": "11. SỐ ĐIỆN THOẠI LIÊN HỆ *",
+                        "phonePlaceholder": "Nhập số điện thoại cá nhân",
+                        "address": "12. ĐỊA CHỈ THƯỜNG TRÚ *",
+                        "addressPlaceholder": "Nhập địa chỉ cư trú đầy đủ",
+                        "email": "13. E-MAIL *",
+                        "emailPlaceholder": "Nhập địa chỉ email liên hệ",
+                        "cccd": "14. THÔNG TIN CCCD CÓ GẮN CHIP *",
+                        "cccdPlaceholder": "Số CCCD + Ngày cấp + Nơi cấp",
+                        "dob": "15. NGÀY THÁNG NĂM SINH *",
+                        "dobPlaceholder": "Chọn ngày tháng năm sinh"
+                      }
+                    },
+                    "partC": {
+                      "title": "PHẦN C - THÔNG TIN HỒ SƠ",
+                      "fields": {
+                        "content": "16. NỘI DUNG MONG MUỐN ĐỀ CỬ *",
+                        "contentPlaceholder": "Mô tả vắn tắt mục tiêu đề cử",
+                        "description": "17. MÔ TẢ CHI TIẾT *",
+                        "descriptionPlaceholder": "Cung cấp chi tiết các thành tích và giá trị tinh hoa",
+                        "media": "18. HÌNH ÁNH / VIDEO *",
+                        "mediaPlaceholder": "Nhập link Google Drive hoặc YouTube",
+                        "source": "19. NGUỒN (LINK) *",
+                        "sourcePlaceholder": "Link bài báo hoặc ghi 'KHÔNG CÓ'",
+                        "certificate": "20. CHỨNG NHẬN / BẰNG KHEN *",
+                        "certificatePlaceholder": "Link hồ sơ năng lực hoặc ghi 'KHÔNG CÓ'",
+                        "estimatedTime": "21. THỜI GIAN DỰ KIẾI *",
+                        "estimatedTimePlaceholder": "Ví dụ: 3 tháng hoặc 1 năm",
+                        "eventTime": "22. THỜI ĐIỂM DỰ KIẾN TỔ CHỨC *",
+                        "eventTimePlaceholder": "Chọn ngày dự kiến",
+                        "location": "23. VỊ TRÍ / ĐỊA ĐIỂM *",
+                        "locationPlaceholder": "Tỉnh/Thành phố hoặc địa điểm cụ thể"
+                      }
+                    }
+                  },
+                  "final": {
+                    "commitment": {
+                      "label": "24. LỜI CAM KẾT *",
+                      "text": "Tôi cam kết mọi thông tin nêu trên là đúng sự thật. Nếu có bất kỳ sự sai lệch nào, tôi xin chịu hoàn toàn trách nhiệm trước pháp luật và Trung tâm Thẩm định."
+                    }
+                  }
+                },
+                "footer": {
+                  "location": "Thành phố Hồ Chí Minh, ngày … tháng … năm 2026.",
+                  "nomineeSign": "NGƯỜI LẬP ĐƠN ĐỀ CỬ",
+                  "nomineeSignNote": "(Ký, ghi rõ họ, tên)",
+                  "unitSign": "ĐƠN VỊ ĐỀ CỬ",
+                  "unitSignNote": "(Ký, ghi rõ họ, tên người đại diện và đóng dấu đơn vị)"
+                }
+              }
+            }
+          },
           "process-nomination": {
             "section": {
               "processHero": {
@@ -1494,27 +1998,32 @@ window.MAIN_CONTENT = {
                 {
                   "step": "01",
                   "title": "Nộp hồ sơ",
-                  "description": "Gửi đề cử với tài liệu yêu cầu"
+                  "description": "Gửi đề cử với tài liệu yêu cầu",
+                  "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop"
                 },
                 {
                   "step": "02",
                   "title": "Xem xét",
-                  "description": "Chuyên gia đánh giá theo Nguyên tắc 5T & 8 Yếu tố"
+                  "description": "Chuyên gia đánh giá theo Nguyên tắc 5T & 8 Yếu tố",
+                  "image": "https://plus.unsplash.com/premium_photo-1661313763836-096eb2bd7393?w=500&auto=format&fit=crop&q=60"
                 },
                 {
                   "step": "03",
                   "title": "Thẩm định",
-                  "description": "Thẩm định kỹ lưỡng các tuyên bố và thành tích"
+                  "description": "Thẩm định kỹ lưỡng các tuyên bố và thành tích",
+                  "image": "https://media.istockphoto.com/id/1610418898/photo/online-survey-and-digital-form-checklist.webp?a=1&b=1&s=612x612&w=0&k=20&c=1TG9GIWnPyVXAGsIiXKkM3rHB_6MbENTTUu9ehIk4uo="
                 },
                 {
                   "step": "04",
                   "title": "Xác thực",
-                  "description": "Xác thực cuối cùng và phê duyệt bởi hội đồng"
+                  "description": "Xác thực cuối cùng và phê duyệt bởi hội đồng",
+                  "image": "https://plus.unsplash.com/premium_photo-1682126150250-65a653ee9eec?w=500&auto=format&fit=crop&q=60"
                 },
                 {
                   "step": "05",
                   "title": "Công nhận chính thức",
-                  "description": "Những người được vinh danh được công bố và thêm vào kho lưu trữ chính thức"
+                  "description": "Những người được vinh danh được công bố và thêm vào kho lưu trữ chính thức",
+                  "image": "https://plus.unsplash.com/premium_photo-1713102864696-e44ae2503d6e?w=500&auto=format&fit=crop&q=60"
                 }
               ],
               "processEligibility": [
@@ -1564,6 +2073,102 @@ window.MAIN_CONTENT = {
                 "expertReview": "Đánh giá chuyên gia",
                 "submitEvidence": "Nộp bằng chứng",
                 "officialRecognition": "Công nhận chính thức"
+              }
+            }
+          },
+          "contact": {
+            "section": {
+              "contactHeroContent": {
+                "bgImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1920&auto=format&fit=crop",
+                "eyebrow": "Liên hệ",
+                "titleMain": "Liên hệ chúng tôi",
+                "titleSub": "Kết nối với Trung tâm Thẩm định Tinh hoa Việt Nam",
+                "description": "Bạn có câu hỏi, muốn gửi đề cử hoặc cần hỗ trợ? Chúng tôi luôn sẵn sàng giúp bạn."
+              },
+              "contactInfoCards": [
+                {
+                  "icon": "FiMail",
+                  "title": "Gửi email",
+                  "lines": [
+                    "info@tinhhoaviet.org.vn"
+                  ]
+                },
+                {
+                  "icon": "FiPhone",
+                  "title": "Gọi điện thoại",
+                  "lines": [
+                    "Hotline: 0989553535",
+                    "Thẩm định viên: 0982437413"
+                  ]
+                },
+                {
+                  "icon": "FiMapPin",
+                  "title": "Ghé thăm",
+                  "lines": [
+                    "181 Đề Thám, Bến Thành, Quận 1, TP.HCM, Việt Nam"
+                  ]
+                }
+              ],
+              "contactFormContent": {
+                "header": {
+                  "title": "Gửi tin nhắn cho chúng tôi",
+                  "description": "Chúng tôi rất muốn nghe từ bạn. Gửi tin nhắn và chúng tôi sẽ phản hồi sớm nhất có thể."
+                },
+                "fields": [
+                  {
+                    "id": "name",
+                    "name": "name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": " ",
+                    "label": "Họ và tên *"
+                  },
+                  {
+                    "id": "email",
+                    "name": "email",
+                    "type": "email",
+                    "required": true,
+                    "placeholder": " ",
+                    "label": "Địa chỉ email *"
+                  },
+                  {
+                    "id": "phone",
+                    "name": "phone",
+                    "type": "tel",
+                    "required": false,
+                    "placeholder": " ",
+                    "label": "Số điện thoại"
+                  },
+                  {
+                    "id": "subject",
+                    "name": "subject",
+                    "type": "select",
+                    "required": true,
+                    "options": [
+                      "Thắc mắc chung",
+                      "Gửi đề cử",
+                      "Quy trình thẩm định",
+                      "Cơ hội hợp tác",
+                      "Truyền thông & Báo chí",
+                      "Hỗ trợ kỹ thuật"
+                    ],
+                    "label": "Chủ đề *"
+                  },
+                  {
+                    "id": "message",
+                    "name": "message",
+                    "type": "textarea",
+                    "required": true,
+                    "rows": 6,
+                    "placeholder": " ",
+                    "label": "Tin nhắn của bạn *"
+                  }
+                ],
+                "submitButton": {
+                  "icon": "FiSend",
+                  "text": "Gửi tin nhắn"
+                },
+                "note": "Bằng cách gửi biểu mẫu này, bạn đồng ý với chính sách bảo mật và điều khoản dịch vụ của chúng tôi."
               }
             }
           }
