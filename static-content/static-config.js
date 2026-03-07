@@ -10,9 +10,9 @@ window.MAIN_CONTENT = {
   "DEFAULT_LANGUAGE": "vn",
   "CONTENT": {
     "meta": {
-      "version": 4,
+      "version": 3,
       "source": "cms-draft",
-      "timestamp": 1772896894209
+      "timestamp": 1772897047436
     },
     "CONTENT": {
       "contentEN": {
@@ -54,10 +54,6 @@ window.MAIN_CONTENT = {
                   {
                     "text": "Contact",
                     "path": "/contact"
-                  },
-                  {
-                    "text": "Blog",
-                    "path": "/#blog"
                   }
                 ],
                 "mobileNavOverride": {
@@ -1170,6 +1166,10 @@ window.MAIN_CONTENT = {
                   {
                     "text": "Liên hệ",
                     "path": "/contact"
+                  },
+                  {
+                    "text": "Tin tức",
+                    "path": "/#blog"
                   }
                 ],
                 "mobileNavOverride": {
