@@ -10,9 +10,9 @@ window.MAIN_CONTENT = {
   "DEFAULT_LANGUAGE": "vn",
   "CONTENT": {
     "meta": {
-      "version": 3,
+      "version": 138,
       "source": "cms-draft",
-      "timestamp": 1772897047436
+      "timestamp": 1773296111915
     },
     "CONTENT": {
       "contentEN": {
@@ -54,6 +54,14 @@ window.MAIN_CONTENT = {
                   {
                     "text": "Contact",
                     "path": "/contact"
+                  },
+                  {
+                    "text": "Events",
+                    "path": "/event"
+                  },
+                  {
+                    "text": "Blog",
+                    "path": "/blog"
                   }
                 ],
                 "mobileNavOverride": {
@@ -300,7 +308,7 @@ window.MAIN_CONTENT = {
               "featuredVideoContent": {
                 "heading": "FEATURED VIDEO",
                 "subheading": "Discover the Spirit and Quintessence of Vietnam",
-                "videoUrl": "https://youtu.be/MbXLt7OwEXI?si=z3UKuaxXYVN9pUyw"
+                "videoUrl": "https://www.youtube.com/watch?v=NJTeVqm51nc?si=z3UKuaxXYVN9pUyw"
               },
               "blogContent": {
                 "blogSectionContent": {
@@ -485,6 +493,109 @@ window.MAIN_CONTENT = {
                 ]
               },
               "eventContent": {
+                "events": [
+                  {
+                    "id": "1",
+                    "slug": "php-conference-istanbul",
+                    "published": true,
+                    "date": "2025-12-25T09:00:00",
+                    "info": {
+                      "eventName": "PHP CONFERENCE IN ISTANBUL",
+                      "eventDate": "2025-12-25",
+                      "location": "3200 Barbaros Bulvan Besiktas/Istanbul, TR",
+                      "remainingTickets": 245,
+                      "speakersCount": 24
+                    },
+                    "hero": {
+                      "registerButton": "REGISTER NOW",
+                      "bgImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+                    },
+                    "about": {
+                      "title": "What's going on there come and learn",
+                      "description": "Join us for an unforgettable experience at the PHP Conference Istanbul 2024. This premier event brings together the brightest minds in web development, offering unparalleled opportunities for learning, networking, and innovation.",
+                      "registerButton": "REGISTER",
+                      "videoButton": "WATCH VIDEO"
+                    },
+                    "speakers": {
+                      "heading": "ADVISORY BOARD",
+                      "subheading": "",
+                      "list": []
+                    },
+                    "pricing": {
+                      "heading": "EVENT PRICE LIST",
+                      "subheading": "Perfect Price for Event",
+                      "registerButton": "REGISTER",
+                      "plans": {
+                        "personal": "Personal",
+                        "business": "Business",
+                        "corporate": "Corporate"
+                      },
+                      "features": {
+                        "dayAccess": "Access to {days}-day conference",
+                        "networking": "Networking session"
+                      }
+                    },
+                    "attendees": {
+                      "heading": "ATTENDEES",
+                      "subheading": "Meet Our Participants",
+                      "tags": {},
+                      "stats": {},
+                      "list": []
+                    },
+                    "testimonials": {
+                      "heading": "See What People Say About Us",
+                      "subheading": "Hear from our community of excellence",
+                      "list": []
+                    }
+                  },
+                  {
+                    "id": "2",
+                    "slug": "new-test",
+                    "published": true,
+                    "date": "2026-03-07T00:00:00",
+                    "info": {
+                      "eventName": "New Event",
+                      "eventDate": "2026-03-07",
+                      "location": "new villa",
+                      "remainingTickets": 100,
+                      "speakersCount": 20
+                    },
+                    "hero": {
+                      "registerButton": "REGISTER NOW",
+                      "bgImage": "https://mtcmarketing.github.io/images--tinh-hoa-viet/images/1772901457403-medium-shot-man-signing-document.webp?v=1772901459964"
+                    },
+                    "about": {
+                      "title": "About this event",
+                      "description": "Event details...",
+                      "registerButton": "REGISTER",
+                      "videoButton": "WATCH VIDEO"
+                    },
+                    "speakers": {
+                      "heading": "Speakers",
+                      "subheading": "",
+                      "list": []
+                    },
+                    "pricing": {
+                      "heading": "Pricing",
+                      "subheading": "",
+                      "registerButton": "REGISTER",
+                      "plans": {},
+                      "features": {}
+                    },
+                    "attendees": {
+                      "heading": "Attendees",
+                      "subheading": "",
+                      "tags": {},
+                      "stats": {},
+                      "list": []
+                    },
+                    "testimonials": {
+                      "heading": "Testimonials",
+                      "subheading": "",
+                      "list": []
+                    }
+                  }
+                ],
                 "info": {
                   "eventName": "PHP CONFERENCE IN ISTANBUL",
                   "eventDate": "2025-12-25T09:00:00",
@@ -1144,32 +1255,28 @@ window.MAIN_CONTENT = {
                 },
                 "navLinks": [
                   {
-                    "text": "Trang chủ",
+                    "text": "TRANG CHỦ",
                     "path": "/"
                   },
                   {
-                    "text": "Về chúng tôi",
+                    "text": "THÔNG TIN",
                     "path": "/#about"
                   },
                   {
-                    "text": "Khung tiêu chí",
+                    "text": "BỘ TIÊU CHÍ",
                     "path": "/#framework"
                   },
                   {
-                    "text": "Danh hiệu",
+                    "text": "DANH BẠ XÁC LẬP",
                     "path": "/#honorees"
                   },
                   {
-                    "text": "Quy trình & Đề cử",
+                    "text": "ĐỀ CỬ",
                     "path": "/process-nomination"
                   },
                   {
-                    "text": "Liên hệ",
+                    "text": "LIÊN HỆ",
                     "path": "/contact"
-                  },
-                  {
-                    "text": "Tin tức",
-                    "path": "/#blog"
                   }
                 ],
                 "mobileNavOverride": {
@@ -1432,7 +1539,7 @@ window.MAIN_CONTENT = {
               "featuredVideoContent": {
                 "heading": "VIDEO NỔI BẬT",
                 "subheading": "Khám phá Tinh thần và Tinh hoa Việt Nam",
-                "videoUrl": "https://youtu.be/MbXLt7OwEXI?si=z3UKuaxXYVN9pUyw"
+                "videoUrl": "https://www.youtube.com/watch?v=NJTeVqm51nc?si=z3UKuaxXYVN9pUyw"
               },
               "blogContent": {
                 "blogSectionContent": {
@@ -1620,6 +1727,109 @@ window.MAIN_CONTENT = {
                 ]
               },
               "eventContent": {
+                "events": [
+                  {
+                    "id": "1",
+                    "slug": "php-conference-istanbul",
+                    "published": true,
+                    "date": "2025-12-25T09:00:00",
+                    "info": {
+                      "eventName": "HỘI NGHỊ PHP TẠI ISTANBUL",
+                      "eventDate": "2025-12-25",
+                      "location": "3200 Barbaros Bulvan Besiktas/Istanbul, TR",
+                      "remainingTickets": 245,
+                      "speakersCount": 24
+                    },
+                    "hero": {
+                      "registerButton": "ĐĂNG KÝ NGAY",
+                      "bgImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+                    },
+                    "about": {
+                      "title": "Có gì ở đó hãy đến và tìm hiểu",
+                      "description": "Hãy tham gia cùng chúng tôi để có một trải nghiệm khó quên tại Hội nghị PHP Istanbul 2024. Sự kiện hàng đầu này quy tụ những bộ óc sáng giá nhất trong lĩnh vực phát triển web, mang đến cơ hội học hỏi, kết nối và đổi mới vô song.",
+                      "registerButton": "ĐĂNG KÝ",
+                      "videoButton": "XEM VIDEO"
+                    },
+                    "speakers": {
+                      "heading": "HỘI ĐỒNG CỐ VẤN",
+                      "subheading": "",
+                      "list": []
+                    },
+                    "pricing": {
+                      "heading": "BẢNG GIÁ SỰ KIỆN",
+                      "subheading": "Giá Tốt Nhất",
+                      "registerButton": "ĐĂNG KÝ",
+                      "plans": {
+                        "personal": "Cá nhân",
+                        "business": "Doanh nghiệp",
+                        "corporate": "Tập đoàn"
+                      },
+                      "features": {
+                        "dayAccess": "Quyền truy cập hội nghị {days} ngày",
+                        "networking": "Phiên giao lưu mạng lưới"
+                      }
+                    },
+                    "attendees": {
+                      "heading": "NGƯỜI THAM DỰ",
+                      "subheading": "Gặp Gỡ Những Người Tham Gia",
+                      "tags": {},
+                      "stats": {},
+                      "list": []
+                    },
+                    "testimonials": {
+                      "heading": "Mọi Người Nói Gì Về Chúng Tôi",
+                      "subheading": "Lắng nghe từ cộng đồng",
+                      "list": []
+                    }
+                  },
+                  {
+                    "id": "2",
+                    "slug": "new-test",
+                    "published": true,
+                    "date": "2026-03-07T00:00:00",
+                    "info": {
+                      "eventName": "Sự Kiện Mới",
+                      "eventDate": "2026-03-07",
+                      "location": "villa mới",
+                      "remainingTickets": 100,
+                      "speakersCount": 20
+                    },
+                    "hero": {
+                      "registerButton": "ĐĂNG KÝ NGAY",
+                      "bgImage": "https://mtcmarketing.github.io/images--tinh-hoa-viet/images/1772901457403-medium-shot-man-signing-document.webp?v=1772901459964"
+                    },
+                    "about": {
+                      "title": "Về sự kiện này",
+                      "description": "Chi tiết sự kiện...",
+                      "registerButton": "ĐĂNG KÝ",
+                      "videoButton": "XEM VIDEO"
+                    },
+                    "speakers": {
+                      "heading": "Diễn giả",
+                      "subheading": "",
+                      "list": []
+                    },
+                    "pricing": {
+                      "heading": "Giá vé",
+                      "subheading": "",
+                      "registerButton": "ĐĂNG KÝ",
+                      "plans": {},
+                      "features": {}
+                    },
+                    "attendees": {
+                      "heading": "Người tham dự",
+                      "subheading": "",
+                      "tags": {},
+                      "stats": {},
+                      "list": []
+                    },
+                    "testimonials": {
+                      "heading": "Cảm nhận",
+                      "subheading": "",
+                      "list": []
+                    }
+                  }
+                ],
                 "hero": {
                   "registerButton": "ĐĂNG KÝ NGAY"
                 },
