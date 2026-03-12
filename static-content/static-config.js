@@ -10,9 +10,9 @@ window.MAIN_CONTENT = {
   "DEFAULT_LANGUAGE": "vn",
   "CONTENT": {
     "meta": {
-      "version": 138,
+      "version": 2,
       "source": "cms-draft",
-      "timestamp": 1773296111915
+      "timestamp": 1773296434112
     },
     "CONTENT": {
       "contentEN": {
@@ -1255,28 +1255,36 @@ window.MAIN_CONTENT = {
                 },
                 "navLinks": [
                   {
-                    "text": "TRANG CHỦ",
+                    "text": "Trang chủ",
                     "path": "/"
                   },
                   {
-                    "text": "THÔNG TIN",
+                    "text": "Về chúng tôi",
                     "path": "/#about"
                   },
                   {
-                    "text": "BỘ TIÊU CHÍ",
+                    "text": "Khung tiêu chí",
                     "path": "/#framework"
                   },
                   {
-                    "text": "DANH BẠ XÁC LẬP",
+                    "text": "Danh hiệu",
                     "path": "/#honorees"
                   },
                   {
-                    "text": "ĐỀ CỬ",
+                    "text": "Quy trình & Đề cử",
                     "path": "/process-nomination"
                   },
                   {
-                    "text": "LIÊN HỆ",
+                    "text": "Liên hệ",
                     "path": "/contact"
+                  },
+                  {
+                    "text": "sự kiện",
+                    "path": "/event"
+                  },
+                  {
+                    "text": "Blog",
+                    "path": "/blog"
                   }
                 ],
                 "mobileNavOverride": {
@@ -1287,7 +1295,7 @@ window.MAIN_CONTENT = {
               },
               "footerContent": {
                 "logo": "Tinh Hoa Việt",
-                "tagline": "Khám phá Tinh hoa – Lan tỏa Giá trị",
+                "tagline": "SUY TÔN TRÍ TUỆ - LƯU TRUYỀN DI SẢN",
                 "quickLinks": [
                   {
                     "label": "Trang chủ",
@@ -1338,7 +1346,7 @@ window.MAIN_CONTENT = {
                     "href": "#"
                   }
                 ],
-                "copyright": "© 2026 Tinh Hoa Việt. Bảo lưu mọi quyền."
+                "copyright": "© TỔ CHỨC XÁC LẬP TINH HOA VIỆT thuộc Viện Những Vấn Đề Phát Triển VIDS (Đăng ký hoạt động Khoc học và Công nghệ số: A-288 do Bộ Khoa học và Công nghệ cấp ngày 29/4/2004)"
               }
             }
           },
